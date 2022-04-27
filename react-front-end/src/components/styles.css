@@ -1,0 +1,82 @@
+/* Sidebar.jsx */
+.logo {
+  display: flex;
+  align-self: center;
+  flex-direction:column;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.MuiButtonBase-root.MuiListItem-root:hover {
+  background-color: #f3e5f5;
+}
+.MuiButtonBase-root.MuiListItem-root.Mui-selected {
+  background-color: #e1bee7;
+}
+
+.MuiButtonBase-root.MuiListItem-root.Mui-selected:hover {
+  background-color: #e1bee7;
+}
+
+.css-5w55od-MuiList-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.css-h4y409-MuiList-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* Task.jsx */
+ .Button {
+ text-align: center; 
+
+}
+
+.Button button {
+  margin: 10px 10px;
+  color: #263238;
+  border-radius: 18px  ;
+  border-color:#263238;
+} 
+
+.Button button:hover {
+  color: #263238;
+  border-color:#263238;
+  font-weight: bolder;
+  background-color: #f5f5f5;
+}
+
+.Button button:focus {
+  color: #263238;
+  background-color: #cfd8dc;
+  border-color: #263238; 
+}
+/* TasfOfDay.jsx */
+.image {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+/* Video.jsx */
+.video-responsive {
+  overflow: hidden ;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-content: center;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
